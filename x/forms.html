@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="text">TEXT</label>
+        <input type="text" id="text">
+        </div>
+        <div>
+        <label for="text2">TEXT TOO</label>
+        <input type="password"id="text2"
+        placeholder="PASSWORD, PLEASE">
+        </div>
+        <div>
+            <label for="number">123456789</label>
+            <input type="number" id="number" min="0">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+        </div>
+        <div>
+            <label for="sex">Your gender</label>
+            <select id="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="nothing"selected>Not mentioned</option>
+            </select>
+        </div>
+        <div>
+             <label for="color">Color</label>
+             <input type="color"id="color">
+
+        </div>
+        <div>
+          <label>Job quantity</label>
+          <input type="radio"name="work">1-3
+          <input type="radio"name="work">4-7
+          <input type="radio"name="work">8-12
+          <input type="radio"name="work">12+
+        </div>
+        <div>
+            <label>Pets</label>
+            <input type="checkbox" name="food">Cats
+            <input type="checkbox" name="food">Dogs
+            <input type="checkbox" name="food">Other
+        </div>
+        <div>
+           <!-- <input type="submit" value="Send form"> --><button >SUBMIT</button>
+        </div>
+    </form>
+</body>
+</html>
